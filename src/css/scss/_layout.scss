@@ -35,7 +35,7 @@ body{
 ------------------------------------- */
 
 .main {
-  background: #ffffff;
+  background:#3359DF;
   border: 1px solid darken($grey, 5);
   border-radius: $br;
   width: 100%;
@@ -44,6 +44,76 @@ body{
 .wrapper {
   padding: $padding;
 }
+.image {
+  text-align: center;
+}
+
+#formalities {
+  text-align: center;
+  color: #ffa550;
+  font-size: 24px;
+  padding-top: 4%;
+  font-weight: bolder;
+}
+
+#thank {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+#logos {
+  color:#fff;
+  font-size: 100px;
+  padding-top: 10%;
+  text-align: center;
+  letter-spacing: 20px;
+  
+   a {
+    color:#3359DF;
+  }
+}
+
+
+.middle {
+   box-sizing: border-box;
+    
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+    background: #fff;
+    text-align: center;
+    padding: 15px 50px;
+    
+    color: #3359DF;
+    .items {
+      font-weight: bolder;
+      font-family: "Helvetica";
+      text-align: center;
+      padding-top: 5%;
+      font-size:20px;
+      line-height: 26px;
+    }
+    .lighter {
+
+    }
+    .darker {
+      font-weight: bolder;
+      color:#000;
+      font-size: large;
+    }
+    .lighter {
+      color: black;
+      font-weight:light;
+      
+      
+    }
+    .light {
+       color: black;
+      font-size: 14px;
+      font-weight:inherit ;
+    }
+}
+
+
 
 // Adds padding to content - use this instead of paragraphs for consistent padding/margin rendering
 .content-block {
